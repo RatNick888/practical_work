@@ -22,6 +22,8 @@ body {
 	font-family: Arial, Verdana, sans-serif;
 }
 
+/* index.html */
+
 .main-content {
   display: flex;
   min-height: 100vh;
@@ -204,6 +206,14 @@ body {
   text-align: center;
 }
 
+/* modules.html */
+
+.modcontainer{
+  margin: 0 auto;
+  padding: 80px 0;
+  width: 1200px;
+}
+
 .d-imge {
   margin-bottom: 0;
 }
@@ -228,12 +238,56 @@ body {
 
 .card {
   display: inline-block;
+  margin-bottom:25px ;
   width: 572px;
   height: 505px;
-  background-color: red;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
 }
 
-/* .card:nth-child(1n) {
+.card:nth-child(2n) {
   margin-left: 25px;
 
-} */
+}
+
+.card1 {
+  position: relative;
+  background-size: contain;
+  background-image: url(/img/photo-1530435460869-d13625c69bbf\ copy.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.dheader-3 {
+  position: absolute;
+  width: 522px;
+  height: 275px;
+  bottom: 0;
+  margin: 25px;
+}
+
+.mheader-3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  color: #3f2aff;
+
+}
+
+.mtext{
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 165%;
+  color: #333;
+
+}
+
+.number{
+  position: relative;
+  margin: 25px;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: right;
+  color: #eaeaea;
+
+}
