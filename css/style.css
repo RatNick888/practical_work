@@ -319,29 +319,24 @@ body {
 }
 
 .mbutton {
-  position: absolute;
- display: flex;
- align-items: center;
- justify-content: center;
- left: 823px;
- right: 823px;
- width: 274px;
- height: 70px;
- border: 2px solid #3F2AFF;
- font-family: Arial;
- font-style: normal;
- font-weight: bold;
- font-size: 18px;
- line-height: 21px;
- text-align: center;
- color: #3F2AFF;
+margin: 50px 448px 50px 448px;;
 }
 
-/* .mbuttonlink{
-  position: absolute;
-  font-weight: 700;
-  font-size: 18px;
-  text-align: center;
-  color: #3f2aff;
+/* .mbuttonlink мне пришлось спереть у Влада,тк я уже был в тупике */
 
-} */
+.mbuttonlink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 274px;
+  height: 70px;
+  border: 2px solid #3F2AFF;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #3F2AFF;
+  background-color: white;
+}
