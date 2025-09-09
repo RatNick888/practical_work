@@ -234,6 +234,7 @@ body {
 
 .cards {
   padding: 0;
+  margin: 0;
 }
 
 .card {
@@ -252,7 +253,31 @@ body {
 .card1 {
   position: relative;
   background-size: contain;
-  background-image: url(/img/photo-1530435460869-d13625c69bbf\ copy.jpg);
+  background-image: url(/img/vvedenie.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.card2 {
+  position: relative;
+  background-size: contain;
+  background-image: url(/img/bazovihtml.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.card3 {
+  position: relative;
+  background-size: contain;
+  background-image: url(/img/bazovicss.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.card4 {
+  position: relative;
+  background-size: contain;
+  background-image: url(/img/rabotasmaketom.jpg);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -283,11 +308,40 @@ body {
 }
 
 .number{
-  position: relative;
-  margin: 25px;
+  position: absolute;
+  margin: 0;
+  bottom: 25px;
+  right: 25px;
+  float: right;
   font-weight: 400;
   font-size: 40px;
-  text-align: right;
   color: #eaeaea;
-
 }
+
+.mbutton {
+  position: absolute;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ left: 823px;
+ right: 823px;
+ width: 274px;
+ height: 70px;
+ border: 2px solid #3F2AFF;
+ font-family: Arial;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 18px;
+ line-height: 21px;
+ text-align: center;
+ color: #3F2AFF;
+}
+
+/* .mbuttonlink{
+  position: absolute;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #3f2aff;
+
+} */
