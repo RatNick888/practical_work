@@ -214,11 +214,17 @@ body {
   width: 1200px;
 }
 
+.skillbox-svg{
+  margin: 0;
+  margin-bottom: 25px;
+}
+
 .d-imge {
   margin-bottom: 0;
 }
 
 .back {
+  margin-bottom: 25px;
   width: 160px;
   height: 23px;
   font-weight: 400;
@@ -227,14 +233,17 @@ body {
 }
 
 .mheader-2 {
+  margin: 0;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 60px;
   color: #3f2aff;
 }
 
 .cards {
-  padding: 0;
   margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
 }
 
 .card {
@@ -252,6 +261,7 @@ body {
 
 .card1 {
   position: relative;
+  padding: 25px;
   background-size: contain;
   background-image: url(/img/vvedenie.jpg);
   background-position: top center;
@@ -260,6 +270,7 @@ body {
 
 .card2 {
   position: relative;
+  padding: 25px;
   background-size: contain;
   background-image: url(/img/bazovihtml.jpg);
   background-position: top center;
@@ -268,6 +279,8 @@ body {
 
 .card3 {
   position: relative;
+  margin: 0;
+  padding: 25px;
   background-size: contain;
   background-image: url(/img/bazovicss.jpg);
   background-position: top center;
@@ -276,6 +289,8 @@ body {
 
 .card4 {
   position: relative;
+  margin: 0;
+  padding: 25px;
   background-size: contain;
   background-image: url(/img/rabotasmaketom.jpg);
   background-position: top center;
@@ -287,7 +302,6 @@ body {
   width: 522px;
   height: 275px;
   bottom: 0;
-  margin: 25px;
 }
 
 .mheader-3 {
@@ -319,10 +333,8 @@ body {
 }
 
 .mbutton {
-margin: 50px 448px 50px 448px;;
+  margin: 0 auto;
 }
-
-/* .mbuttonlink мне пришлось спереть у Влада,тк я уже был в тупике */
 
 .mbuttonlink{
   display: flex;
